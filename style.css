@@ -14,7 +14,7 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
-      max-width: 1340px;
+      max-width: 1120px;
       top: 28px;
       left: 56px;
   }
@@ -27,6 +27,7 @@
       font-size: 18px;
       padding: 12px 25px;
       text-decoration: none;
+      border-radius: 3px;
   }
   
   .main {
@@ -76,8 +77,13 @@
     font-size: 25px;
     text-transform: uppercase;
     cursor: pointer;
+    transition: 300ms;
   }
-  
+
+  .form-cta button:hover{
+  background-image: linear-gradient(to bottom, #8B0000, #EE0000 130%);  
+  }
+
   .main p {
   font-size: 19px;
   }
