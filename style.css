@@ -8,8 +8,13 @@
     color: white;
   }
 
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
   .container {
-      max-width: 900px;
+      max-width: 1130px;
       margin: 0 auto;
   }
 
@@ -19,7 +24,7 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
-      max-width: 950px;
+      max-width: 1790px;
       top: 28px;
       left: 56px;
   }
@@ -36,7 +41,7 @@
   }
   
   .main {
-    height: 950px;
+    height: 815px;
     background: url("./css/img/bg.jpg") center;
     display: flex;
     align-items: center;
@@ -107,25 +112,58 @@
     bottom: 0;
   }
 
+  /* Primeira Parte - TV */
   .section {
       background: black;
       padding: 4rem 0;
+      border-top: 8px solid #222;
+  }
+
+  .section h1 {
+    font-size: 50px;
+    margin-bottom: 16px;
+  }
+
+  .section p {
+    font-size: 26px;
   }
  
   .grid {
       display: grid;
-      grid-template-columns: 200px 200px;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
   }
-
-  <!-- Colocando o vídeo sobre a imagem --!>
   
   .img-tv {
       position: relative;
   }
 
+  .img-tv img{
+    position: relative;
+    z-index: 1;
+  }
+
   .video-tv {
       position: absolute;
+      width: 422px;
       top: 80px;
       left: 70px;
-    
+  }
+
+  /* Segunda Parte - Celular */
+  .download  .grid > div:first-child {
+    order: 2;
+  }
+  
+  .download .img-tv {
+   order: 1;
+  }
+
+  /* Quarta Parte - Crianças */
+  .kids .grid > div:first-child {
+    order: 2;
+  }
+  
+  .kids .img-tv {
+   order: 1;
   }
