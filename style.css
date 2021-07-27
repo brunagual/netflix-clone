@@ -41,6 +41,7 @@
   }
   
   .main {
+    padding-top: 4rem;
     height: 815px;
     background: url("./css/img/bg.jpg") center;
     display: flex;
@@ -48,6 +49,7 @@
     justify-content: center;
     text-align: center;
     position: relative;
+    box-sizing: border-box;
   }
   
   .main-child {
@@ -64,6 +66,7 @@
   
   .main span {
   font-size: 26px;
+  margin-top: 10px;
   }
   
   .form-cta {
@@ -159,6 +162,14 @@
    order: 1;
   }
 
+
+/* Terceira Parte - Computador */
+.device-pile .video-tv {
+  width: 340px;
+  top: 40px;
+  left: 100px;
+  }
+
   /* Quarta Parte - Crianças */
   .kids .grid > div:first-child {
     order: 2;
@@ -166,4 +177,24 @@
   
   .kids .img-tv {
    order: 1;
+  }
+
+  /* Final da Página */
+  .footer .form-cta {
+    margin-top: 0;
+  }
+
+  .footer {
+    padding: 4rem 0 2rem 0;
+    background: black;
+    border-top: 8px solid #222;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+  }
+
+  .footer p {
+    margin-top:  2rem;
+    color: #757575;
+    font-size: 13px;
   }
