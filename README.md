@@ -6,7 +6,7 @@
 
 ***
 ### :mag: Sobre <br>
-Projeto realizado para práticar a construção de sites, treinar posicionamento através do CSS e diversos outros efeitos como: gradient, placeholder, vídeo e muito mais. <br>
+Projeto realizado para praticar a construção de sites, treinar posicionamento através do CSS e diversos outros efeitos como: gradient, placeholder, vídeo e muito mais. <br>
 Este projeto remonta de maneira sucinta a página inicial do site da Netflix. <br>
 
 ***
